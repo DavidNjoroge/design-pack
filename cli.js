@@ -17,7 +17,7 @@ program
   });
 
 program.parse(process.argv)
-console.log('my command',cmdValue);
+console.log('Created design pack: ',cmdValue);
 if(cmdValue!=undefined){
   main(cmdValue)
 }
@@ -28,7 +28,7 @@ function main(cmdValue){
 
   // })
   cmd.get(
-    `cp -r design-template ${cmdValue}`
+    `cp -r design-template ${cmdValue} && cd ${cmdValue}`
   )
 
 }
