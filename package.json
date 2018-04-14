@@ -11,7 +11,8 @@
   "author": "David Njoroge Mwangi <njorogedavid13@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.15.1"
+    "commander": "^2.15.1",
+    "node-cmd": "3.0.0"
   },
   "devDependencies": {},
   "repository": {

@@ -4,6 +4,9 @@ const fs = require('fs');
 const path = require('path');
 const program = require('commander');
 const mkdirp = require('mkdirp')
+const cmd = require('node-cmd')
+
+// global variables
  let cmdValue
 program
   .option('--no-sauce', 'Remove sauce')
@@ -19,10 +22,15 @@ if(cmdValue!=undefined){
   main(cmdValue)
 }
 
+//this is where the code starts, where 'cmdValue' is the terminal parameter
 function main(cmdValue){
-  mkdir(cmdValue,()=>{
+  // mkdir(cmdValue,()=>{
 
-  })
+  // })
+  cmd.get(
+    `cp -r design-template ${cmdValue}`
+  )
+
 }
 
 function mkdir(path, fn) {
