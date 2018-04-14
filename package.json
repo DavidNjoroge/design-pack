@@ -1,7 +1,6 @@
 {
   "name": "design-pack",
   "version": "1.0.0",
-  "description": "",
   "main": "cli.js",
   "bin": {
     "design-pack": "cli.js"
@@ -9,9 +8,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "David Njoroge Mwangi <njorogedavid13@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.15.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidNjoroge/myclisample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidNjoroge/myclisample/issues"
+  },
+  "homepage": "https://github.com/DavidNjoroge/myclisample#readme",
+  "description": ""
 }
