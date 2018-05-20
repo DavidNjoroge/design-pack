@@ -10,7 +10,7 @@ A web design starter pack cli containing index.html file with css and js files l
 ## Installation
 
 ```
-$ npm install -g design-pack
+$ npm install -g design-pack@latest
 ```
 
 ## Usage
